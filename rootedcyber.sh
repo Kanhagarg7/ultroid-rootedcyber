@@ -13,6 +13,8 @@ find . -type f -exec sed -i 's/ultroid/kanha/g' {} +
 pip3 install inst*pa*e/pytg*
 cp ins*pac*/plu/*py plugin
 pip3 uninstall telegraph -y &&  pip3 install telegraph
+cd -
+cd kanha*
 }
 a
 echo "start"

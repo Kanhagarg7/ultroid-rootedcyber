@@ -8,6 +8,8 @@ pip install --upgrade pip
 pip3 install -r req*
 pip3 install -r res*/st*/op*
 git clone https://github.com/rooted-cyber/install-package
+cd install-package
+find . -type f -exec sed -i 's/ultroid/kanha/g' {} +
 pip3 install inst*pa*e/pytg*
 cp ins*pac*/plu/*py plugin
 pip3 uninstall telegraph -y &&  pip3 install telegraph
